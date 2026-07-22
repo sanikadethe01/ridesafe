@@ -51,16 +51,44 @@ interface ApiService {
         @Path("id")
         id: String
     ): DeleteResponse
+}
 
     // ---------------- Ride ----------------
 
-    @POST("api/rides/create")
-    suspend fun createRide(
-        @Body request: RideRequest
-    ): Ride
-
-    @POST("api/location/update")
-    suspend fun updateLocation(
-        @Body request: LocationRequest
-    ): Location
-}
+// ---------------- Ride ----------------
+//
+//    @POST("api/rides/create")
+//    suspend fun createRide(
+//        @Header("Authorization")
+//        token: String,
+//
+//        @Body
+//        request: RideRequest
+//    ): Ride
+//
+//    @POST("api/rides/end")
+//    suspend fun endRide(
+//        @Header("Authorization")
+//        token: String,
+//
+//        @Body
+//        request: EndRideRequest
+//    ): Ride
+//
+//    @GET("api/rides/status/{rideId}")
+//    suspend fun getRideStatus(
+//        @Header("Authorization")
+//        token: String,
+//
+//        @Path("rideId")
+//        rideId: String
+//    ): RideStatusResponse
+//
+//    @GET("api/rides/real-eta/{rideId}")
+//    suspend fun getRealEta(
+//        @Header("Authorization")
+//        token: String,
+//
+//        @Path("rideId")
+//        rideId: String
+//    ): EtaResponse
