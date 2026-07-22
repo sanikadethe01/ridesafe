@@ -1,6 +1,6 @@
 package com.example.riderapp.data.model
 
-data class User(
+data class UserResponse(
     val id: String,
     val name: String,
     val email: String,

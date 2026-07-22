@@ -1,8 +1,8 @@
 package com.example.riderapp.data.model
 
-data class User(
-    val id: String,
+data class RegisterRequest(
     val name: String,
     val email: String,
-    val phone: String
+    val phone: String,
+    val password: String
 )

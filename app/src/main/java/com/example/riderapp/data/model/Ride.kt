@@ -1,9 +1,8 @@
 package com.example.riderapp.data.model
 
 data class Ride(
-    val rideId: String = "",
-    val destination: String = "",
-    val startTime: Long = 0L,
-    val eta: String = "",
-    val status: String = ""
+    val _id: String? = null,
+    val destination: String,
+    val expectedArrival: Int,
+    val status: String
 )

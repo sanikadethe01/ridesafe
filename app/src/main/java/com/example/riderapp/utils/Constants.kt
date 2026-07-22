@@ -2,11 +2,8 @@ package com.example.riderapp.utils
 
 object Constants {
 
-    const val USERS = "users"
 
-    const val CONTACTS = "contacts"
+    const val BASE_URL = "http://10.143.87.13:5000/"
 
-    const val RIDES = "rides"
-
-    const val RIDE_UPDATES = "ride_updates"
+    const val TOKEN = "JWT_TOKEN"
 }

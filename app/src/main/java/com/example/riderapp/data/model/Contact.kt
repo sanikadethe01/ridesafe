@@ -1,8 +1,8 @@
 package com.example.riderapp.data.model
 
-data class User(
-    val id: String,
+data class Contact(
+    val _id: String,
     val name: String,
-    val email: String,
+    val relation: String,
     val phone: String
 )

@@ -9,5 +9,4 @@ class LocationService(
 
     private val fusedLocationClient =
         LocationServices.getFusedLocationProviderClient(context)
-
 }
